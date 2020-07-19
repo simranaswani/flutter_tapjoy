@@ -1,0 +1,40 @@
+group 'com.anavrinapps.tapjoy.flutter_tapjoy'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+           maven {
+         name "Tapjoy's maven repo"
+         url "https://tapjoy.bintray.com/maven"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+dependencies {
+    api 'com.tapjoy:tapjoy-android-sdk:12.3.1@aar'
+}

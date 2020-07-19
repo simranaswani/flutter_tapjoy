@@ -1,0 +1,25 @@
+name: flutter_tapjoy
+description: A plugin for Tapjoy for both Android & iOS 
+version: 1.0.2
+homepage: https://github.com/AnavrinApps/flutter_tapjoy
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.anavrinapps.tapjoy.flutter_tapjoy
+        pluginClass: FlutterTapjoyPlugin
+      ios:
+        pluginClass: FlutterTapjoyPlugin

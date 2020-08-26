@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_tapjoy (0.0.1):
+    - Flutter
+    - TapjoySDK
+  - TapjoySDK (12.6.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_tapjoy (from `.symlinks/plugins/flutter_tapjoy/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TapjoySDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_tapjoy:
+    :path: ".symlinks/plugins/flutter_tapjoy/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_tapjoy: dea10c747fdac6e6ec3a2fc243cf0ae1b8e79dc4
+  TapjoySDK: ab02725a55e84c2fdd6fafc872cb00bd58e8adb2
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.9.3
